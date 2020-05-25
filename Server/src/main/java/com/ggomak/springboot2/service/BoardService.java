@@ -44,7 +44,7 @@ public class BoardService {
 
     // 게시글 등록 및 파일 업로드
     @Transactional
-        public Long save(RequestFileDto requestFileDto, SessionUser sessionUser, MultipartFile multipartFile) {
+    public Long save(RequestFileDto requestFileDto, SessionUser sessionUser, MultipartFile multipartFile) {
 
         if(multipartFile != null) { // 첨부파일이 있는 경우
             String fileTimeStamp = fileService.upload(multipartFile);
