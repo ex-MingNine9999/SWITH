@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <title>Line_Controls_Chart</title>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+    <!-- google charts -->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+</head>
+<body>
+
+<h3 th:text="${sessionUser.name}"></h3><h4>님의 집중도</h4>
+
+<div id="Line_Controls_Chart">
+    <!-- 라인 차트 생성할 영역 -->
+    <div id="lineChartArea" style="padding:0px 20px 0px 0px;"></div>
+    <!-- 컨트롤바를 생성할 영역 -->
+    <div id="controlsArea" style="padding:0px 20px 0px 0px;"></div>
+</div>
+
+</body>
+
+<script src="/js/chart.js"></script>
+
+</html>
