@@ -38,6 +38,12 @@ public class DataService {
         Optional<User> user = userRepository.findByEmailAndSocialType("test@gmail.com", SocialType.ORIGIN);
         Content content = contentRepository.findByContentNumber(contentNumber);
 
-        return dataRepository.findByUserAndContent(user.get(), content).getConcentrateData();
+        Data data = dataRepository.findByUserAndContent(user.get(), content);
+
+        if(data == null){
+            return null;
+        }
+
+        return data.getConcentrateData();
     }
 }
