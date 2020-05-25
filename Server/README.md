@@ -26,6 +26,10 @@ compile('mysql:mysql-connector-java')
 compile('org.springframework.boot:spring-boot-starter-oauth2-client')
 compile('org.springframework.boot:spring-boot-starter-security')
 
+// Google Chart
+compile('com.googlecode.json-simple:json-simple:1.1.1')
+compile('com.fasterxml.jackson.core:jackson-databind:2.9.4')
+
 // Plugin
 compileOnly('org.projectlombok:lombok')
 testCompile('org.springframework.boot:spring-boot-starter-test')
@@ -51,9 +55,13 @@ testCompile('org.springframework.boot:spring-boot-starter-test')
   - 동영상 스트리밍 지원
   - 소스 공유를 위해 mysql에서 in-memory db로 변경
   
+## v1.3
+
+  - 구글 차트를 이용한 집중도 페이지 구현
+  - 게시판 댓글 DB 구현
+  
 ## 구현 예정
   
-  - 게시판 댓글 기능
   - 로그인 예외처리
   - 웹캠 사용
  
