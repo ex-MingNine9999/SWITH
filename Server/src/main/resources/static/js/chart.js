@@ -10,18 +10,27 @@ var chartDrowFun = {
         //컨트롤러 바 차트의 라인 수
         var controlLineCount    = 10;
 
-        var data = {
-            content_id: 1
-        };
+        // 이 부분 수정 필요함 (방법을 몰라서 하드코딩함)
+        var url = document.location.href;
+        var kbSplit = url.split("/");
+        var k = 0
 
+        while(kbSplit[k] != null){
+            k++;
+        }
+        /////////////////////////////////
         $.ajax({
             type: 'GET',
-            url: '/api/v3/dataload',
+            url: '/api/v3/dataload/' + kbSplit[k-1],
             dataType: "text",
-            contentType: 'application/json; charset=utf-8',
-            data: data
+            contentType: 'application/json; charset=utf-8'
         }).done(function(receiveData) {
-            chartData = receiveData;
+            if(receiveData == "null"){
+                alert("기록된 집중도 데이터가 없습니다.");
+            }
+            else {
+                chartData = receiveData;
+            }
         }).fail(function (error) {
             alert(JSON.stringify(error));
         });
@@ -127,6 +136,9 @@ var chartDrowFun = {
 }
 
 $(document).ready(function(){
+
+    var content_id = "${content_id}";
+
     google.charts.load('current', {'packages':['line','controls']});
-    chartDrowFun.chartDrow(); //chartDrow() 실행
+    chartDrowFun.chartDrow(content_id); //chartDrow() 실행
 });

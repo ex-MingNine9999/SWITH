@@ -38,6 +38,9 @@ public class User implements Serializable {
     @Column(nullable = false)
     private RoleType roleType;
 
+    @Column
+    private String sessionAddress;
+
     @Builder
     public User(String name, String password, String email, SocialType socialType, RoleType roleType) {
         this.name = name;
@@ -68,4 +71,7 @@ public class User implements Serializable {
         return this.roleType.getKey();
     }
 
+    public void setSessionAddress(String sessionAddress){
+        this.sessionAddress = sessionAddress;
+    }
 }

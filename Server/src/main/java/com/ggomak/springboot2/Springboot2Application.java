@@ -29,11 +29,11 @@ public class Springboot2Application implements WebMvcConfigurer {
 
 		return (args) -> {
 			User user = userRepository.save(User.builder()
-					.name("test")
+					.name("정지수")
 					.password("test")
-					.email("test@gmail.com")
+					.email("kiah0097@gmail.com")
 					.roleType(RoleType.USER)
-					.socialType(SocialType.ORIGIN)
+					.socialType(SocialType.GOOGLE)
 					.build());
 
 			Files files = fileRepository.save(Files.builder()
@@ -74,12 +74,19 @@ public class Springboot2Application implements WebMvcConfigurer {
 							.build())
 			);
 
-			Content content = contentRepository.findByContentNumber(Integer.toUnsignedLong(1));
+			Content content1 = contentRepository.findByContentNumber(Integer.toUnsignedLong(1));
+			Content content2 = contentRepository.findByContentNumber(Integer.toUnsignedLong(2));
 
-			Data data = dataRepository.save(Data.builder()
-					.content(content)
+			dataRepository.save(Data.builder()
+					.content(content1)
 					.user(user)
 					.concentrateData("80:90:70:60:70:80:40:50:50:60:60:70:70:80:90:100:90:80:90:80:70:70:60:60:60:60:50:40:30:20:30:40:40:40:60:70:90:80:50")
+					.build());
+
+			dataRepository.save(Data.builder()
+					.content(content2)
+					.user(user)
+					.concentrateData("10:20:30:40:50:60:70:80:90:100:100:100:100:100:100:90:80:70:60:50:40:30:20:10:0:0:0:0:10:10:20:20:20:20:20:20:60")
 					.build());
 		};
 	}

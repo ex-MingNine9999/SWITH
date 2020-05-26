@@ -32,4 +32,8 @@ public class Data {
         this.content = content;
         this.concentrateData = concentrateData;
     }
+
+    public void setData(String concentrateData){
+        this.concentrateData = concentrateData;
+    }
 }

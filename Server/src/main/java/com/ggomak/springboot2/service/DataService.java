@@ -3,7 +3,6 @@ package com.ggomak.springboot2.service;
 import com.ggomak.springboot2.domain.Content;
 import com.ggomak.springboot2.domain.Data;
 import com.ggomak.springboot2.domain.User;
-import com.ggomak.springboot2.domain.enums.SocialType;
 import com.ggomak.springboot2.oauthsecurity.auth.dto.SessionUser;
 import com.ggomak.springboot2.repository.ContentRepository;
 import com.ggomak.springboot2.repository.DataRepository;
@@ -21,21 +20,30 @@ public class DataService {
     private final UserRepository userRepository;
     private final ContentRepository contentRepository;
 
-    public void save(SessionUser sessionUser, Data data){
+    public void save(String sessionAddress, Long contentId, String concendata){
 
-        Optional<User> user = userRepository.findByEmailAndSocialType(sessionUser.getEmail(), sessionUser.getSocialType());
-        Content content = contentRepository.findByContentNumber(data.getContent().getContentNumber());
+        Optional<User> user = userRepository.findBySessionAddress(sessionAddress);
+        Content content = contentRepository.findByContentNumber(contentId);
 
-        dataRepository.save(Data.builder()
-                .user(user.get())
-                .content(content)
-                .concentrateData(data.getConcentrateData())
-                .build());
+        Data data = dataRepository.findByUserAndContent(user.get(), content);
+
+        if(data == null){
+            dataRepository.save(Data.builder()
+                    .user(user.get())
+                    .content(content)
+                    .concentrateData(concendata)
+                    .build());
+        }
+        else{
+            data.setData(data.getConcentrateData().concat(concendata));
+            dataRepository.save(data);
+        }
+
     }
 
     public String load(SessionUser sessionUser, Long contentNumber){
 
-        Optional<User> user = userRepository.findByEmailAndSocialType("test@gmail.com", SocialType.ORIGIN);
+        Optional<User> user = userRepository.findByEmailAndSocialType(sessionUser.getEmail(), sessionUser.getSocialType());
         Content content = contentRepository.findByContentNumber(contentNumber);
 
         Data data = dataRepository.findByUserAndContent(user.get(), content);
