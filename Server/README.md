@@ -60,6 +60,11 @@ testCompile('org.springframework.boot:spring-boot-starter-test')
   - 구글 차트를 이용한 집중도 페이지 구현
   - 게시판 댓글 DB 구현
   
+## v1.3.1
+
+  - User session 정보 및 Content session 정보 추가
+  - 집중도 처리 restAPI 구현
+  
 ## 구현 예정
   
   - 로그인 예외처리
