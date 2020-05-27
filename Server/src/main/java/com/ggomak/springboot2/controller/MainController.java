@@ -28,7 +28,7 @@ public class MainController {
             mainService.regist(sessionAddress, user);
         }
 
-        return "/main";
+        return "main";
     }
 
 

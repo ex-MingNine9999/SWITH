@@ -11,16 +11,16 @@ public class LoginController {
 
     @GetMapping("/login")
     public String signIn() {
-        return "/login/login";
+        return "login/login";
     }
 
     @GetMapping("/signup")
     public String signUp() {
-        return "/login/signup";
+        return "login/signup";
     }
 
     @GetMapping("/forget")
     public String forget() {
-        return "/login/forget";
+        return "login/forget";
     }
 }

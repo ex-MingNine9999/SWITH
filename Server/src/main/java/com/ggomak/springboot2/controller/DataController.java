@@ -18,6 +18,6 @@ public class DataController {
         model.addAttribute("sessionUser", user);
         model.addAttribute("content_id", content_id);
 
-        return "/chart";
+        return "chart";
     }
 }

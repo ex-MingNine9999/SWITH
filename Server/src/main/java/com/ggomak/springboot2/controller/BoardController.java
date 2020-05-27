@@ -25,7 +25,7 @@ public class BoardController {
         model.addAttribute("sessionUser", user);
         model.addAttribute("boardList", boardService.findBoardList(pageable, BoardType.notice));
 
-        return "/board/noticelist";
+        return "board/noticelist";
     }
 
     // 자유게시판 목록
@@ -35,7 +35,7 @@ public class BoardController {
         model.addAttribute("sessionUser", user);
         model.addAttribute("boardList", boardService.findBoardList(pageable, BoardType.free));
 
-        return "/board/freelist";
+        return "board/freelist";
     }
 
     // 게시글 작성
@@ -45,7 +45,7 @@ public class BoardController {
         model.addAttribute("sessionUser", user);
         model.addAttribute("board", boardService.findBoardById(id));
 
-        return "/board/form";
+        return "board/form";
     }
 
 }
