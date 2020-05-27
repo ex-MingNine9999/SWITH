@@ -17,7 +17,7 @@ public class MainController {
     private final MainService mainService;
 
     // 메인 페이지
-    @GetMapping({"/main", "/"})
+    @GetMapping("/")
     public String mainPage(HttpServletRequest request, Model model, @LoginUser SessionUser user) {
 
         model.addAttribute("sessionUser", user);
