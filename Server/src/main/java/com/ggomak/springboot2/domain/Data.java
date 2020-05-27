@@ -3,6 +3,7 @@ package com.ggomak.springboot2.domain;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import org.hibernate.validator.constraints.Length;
 
 import javax.persistence.*;
 
@@ -24,6 +25,7 @@ public class Data {
     private Content content;
 
     @Column
+    @Length(max = 5000)
     private String concentrateData;
 
     @Builder

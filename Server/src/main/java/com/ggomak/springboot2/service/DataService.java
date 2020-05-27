@@ -11,6 +11,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.util.Optional;
+import java.util.StringTokenizer;
 
 @Service
 @RequiredArgsConstructor
@@ -20,9 +21,11 @@ public class DataService {
     private final UserRepository userRepository;
     private final ContentRepository contentRepository;
 
-    public void save(String sessionAddress, Long contentId, String concendata){
+    public void save(String sessionAddress, String concendata){
 
         Optional<User> user = userRepository.findBySessionAddress(sessionAddress);
+
+        Long contentId = user.get().getSessionContent();
         Content content = contentRepository.findByContentNumber(contentId);
 
         Data data = dataRepository.findByUserAndContent(user.get(), content);

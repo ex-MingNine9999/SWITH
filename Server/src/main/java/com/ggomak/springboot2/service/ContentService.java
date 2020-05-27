@@ -1,23 +1,34 @@
 package com.ggomak.springboot2.service;
 
 import com.ggomak.springboot2.domain.Content;
+import com.ggomak.springboot2.domain.User;
 import com.ggomak.springboot2.repository.ContentRepository;
+import com.ggomak.springboot2.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.*;
+import java.util.Optional;
 
 @Service
 @RequiredArgsConstructor
 public class ContentService {
 
     private final ContentRepository contentRepository;
+    private final UserRepository userRepository;
 
     // 해당 기본키를 가지는 동영상 로컬 경로 반환
     public void getContent(long content_id,
                            HttpServletRequest request, HttpServletResponse response) throws IOException {
+
+        Optional<User> user1 = userRepository.findBySessionAddress(request.getHeader("host"));
+
+        if(user1.isPresent()){
+            user1.get().setSessionContent(content_id);
+            userRepository.save(user1.get());
+        }
 
         Content content = contentRepository.findByContentNumber(content_id);
 

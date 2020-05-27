@@ -1,7 +1,5 @@
 package com.ggomak.springboot2.controller;
 
-import com.ggomak.springboot2.domain.Content;
-import com.ggomak.springboot2.domain.enums.SocialType;
 import com.ggomak.springboot2.oauthsecurity.annotation.LoginUser;
 import com.ggomak.springboot2.oauthsecurity.auth.dto.SessionUser;
 import com.ggomak.springboot2.service.DataService;
@@ -22,11 +20,7 @@ public class DataApiController {
 
         String sessionAddress = request.getHeader("host");
 
-        String concenData = data.substring(2);
-        StringTokenizer tokens = new StringTokenizer(data);
-        String contentId = tokens.nextToken(":") ;
-
-        dataService.save(sessionAddress, Long.parseLong(contentId), concenData);
+        dataService.save(sessionAddress, data);
     }
 
     @GetMapping("/api/v3/dataload/{id}")
