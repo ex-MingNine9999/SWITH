@@ -34,7 +34,7 @@ public class ContentService {
 
         // 파일의 임의의 위치에서 읽어오기 위해 RandomAccessFile 클래스를 사용한다.
         // 해당 파일이 없을 경우 예외 발생
-        File file = new File("/Users/ggomak/Desktop/SpringBoot2File/content/" + content.getContentName() + ".mp4");
+        File file = new File("/home/ubuntu/Content/" + content.getContentName() + ".mp4");
 
         if (!file.exists()) throw new FileNotFoundException();
 
