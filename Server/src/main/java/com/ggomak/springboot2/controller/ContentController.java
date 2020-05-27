@@ -17,6 +17,6 @@ public class ContentController {
     public String videoPage(Model model, @LoginUser SessionUser user) {
 
         model.addAttribute("sessionUser", user);
-        return "/board/content";
+        return "board/content";
     }
 }
