@@ -22,7 +22,7 @@ public class MainController {
 
         model.addAttribute("sessionUser", user);
 
-        String sessionAddress = request.getHeader("host");
+        String sessionAddress = request.getRemoteAddr();
 
         if(user != null){
             mainService.regist(sessionAddress, user);
