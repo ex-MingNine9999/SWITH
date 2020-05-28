@@ -18,7 +18,7 @@ public class DataApiController {
     @PostMapping("/api/v3/datasave")
     public void dataSave(HttpServletRequest request, @RequestBody String data) {
 
-        String sessionAddress = request.getHeader("host");
+        String sessionAddress = request.getRemoteAddr();
 
         dataService.save(sessionAddress, data);
     }

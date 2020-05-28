@@ -28,7 +28,7 @@ public class ContentApiController {
     public void getContentMediaVideo(@PathVariable String content_id,
                                      HttpServletRequest request, HttpServletResponse response, @LoginUser SessionUser user) throws IOException {
 
-        String sessionAddress = request.getHeader("host");
+        String sessionAddress = request.getRemoteAddr();
 
         if(user != null){
             mainService.regist(sessionAddress, user);
