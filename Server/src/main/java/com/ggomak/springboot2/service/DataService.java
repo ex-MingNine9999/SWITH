@@ -10,6 +10,7 @@ import com.ggomak.springboot2.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
+import java.util.NoSuchElementException;
 import java.util.Optional;
 
 @Service
@@ -24,21 +25,30 @@ public class DataService {
 
         Optional<User> user = userRepository.findBySessionAddress(sessionAddress);
 
-        Long contentId = user.get().getSessionContent();
-        Content content = contentRepository.findByContentNumber(contentId);
+        try {
+            Long contentId = user.get().getSessionContent();
 
-        Data data = dataRepository.findByUserAndContent(user.get(), content);
+            if(contentId == null){
+                System.out.println("no session content");
+                return;
+            }
 
-        if(data == null){
-            dataRepository.save(Data.builder()
-                    .user(user.get())
-                    .content(content)
-                    .concentrateData(concendata)
-                    .build());
+            Content content = contentRepository.findByContentNumber(contentId);
+            Data data = dataRepository.findByUserAndContent(user.get(), content);
+
+            if (data == null) {
+                dataRepository.save(Data.builder()
+                        .user(user.get())
+                        .content(content)
+                        .concentrateData(concendata)
+                        .build());
+            } else {
+                data.setData(data.getConcentrateData().concat(concendata));
+                dataRepository.save(data);
+            }
         }
-        else{
-            data.setData(data.getConcentrateData().concat(concendata));
-            dataRepository.save(data);
+        catch(NoSuchElementException e){
+            System.out.println("no session content");
         }
 
     }

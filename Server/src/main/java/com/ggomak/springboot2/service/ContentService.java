@@ -6,15 +6,19 @@ import com.ggomak.springboot2.repository.ContentRepository;
 import com.ggomak.springboot2.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+import sun.security.x509.IPAddressName;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.*;
+import java.util.HashMap;
 import java.util.Optional;
 
 @Service
 @RequiredArgsConstructor
 public class ContentService {
+
+    private HashMap<String, Integer> sessionList = new HashMap<>();
 
     private final ContentRepository contentRepository;
     private final UserRepository userRepository;
@@ -27,6 +31,7 @@ public class ContentService {
 
         if(user1.isPresent()){
             user1.get().setSessionContent(content_id);
+            sessionList.put(user1.get().getSessionAddress(), 0);
             userRepository.save(user1.get());
         }
 
@@ -112,6 +117,14 @@ public class ContentService {
         } catch (IOException e) {
             //전송 중에 브라우저를 닫거나, 화면을 전환한 경우 종료해야 하므로 전송취소.
             // progressBar를 클릭한 경우에는 클릭한 위치값으로 재요청이 들어오므로 전송 취소.
+            if(sessionList.get(user1.get().getSessionAddress()) % 2 == 0){
+                user1.get().setSessionContent(null);
+                userRepository.save(user1.get());
+            }
+
+            int cnt = sessionList.get(user1.get().getSessionAddress());
+            sessionList.replace(user1.get().getSessionAddress(), cnt++);
+
         } finally {
             randomFile.close();
         }
