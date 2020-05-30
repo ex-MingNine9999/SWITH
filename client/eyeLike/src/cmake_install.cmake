@@ -1,4 +1,4 @@
-# Install script for directory: /Users/ming._.nine9/Programming/SWITH/eyeLike/src
+# Install script for directory: /Users/kimminjeong/SWITH/client/eyeLike/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -12,7 +12,6 @@
 #include "findEyeCenter.h"
 #include "findEyeCorner.h"
 #include "logEyeTracking.h"
-#include "socket.h"
 
 /* Attempt at supporting openCV version 4.0.1 or higher */
 #if CV_MAJOR_VERSION >= 4
@@ -49,6 +48,7 @@ int main( int argc, const char** argv ) {
 
   // Load the cascades
   if( !face_cascade.load( face_cascade_name ) ){ printf("--(!)Error loading face cascade, please change face_cascade_name in source code.\n"); return -1; };
+ /*화면 없애기
   cv::namedWindow(main_window_name,CV_WINDOW_NORMAL);
   cv::moveWindow(main_window_name, 400, 100);
   cv::namedWindow(face_window_name,CV_WINDOW_NORMAL);
@@ -57,6 +57,7 @@ int main( int argc, const char** argv ) {
   cv::moveWindow("Right Eye", 10, 600);
   cv::namedWindow("Left Eye",CV_WINDOW_NORMAL);
   cv::moveWindow("Left Eye", 10, 800);
+  */
 
   /* As the matrix dichotomy will not be applied, these windows are useless.
   cv::namedWindow("aa",CV_WINDOW_NORMAL);
@@ -92,8 +93,8 @@ int main( int argc, const char** argv ) {
         printf(" --(!) No captured frame -- Break!");
         break;
       }
-
-      imshow(main_window_name,debugImage);
+        // 화면 보이는거 끄기
+        //imshow(main_window_name,debugImage);
 
       int c = cv::waitKey(10);
       if( (char)c == 'c' ) { break; }
@@ -181,8 +182,9 @@ void findEyes(cv::Mat frame_gray, cv::Rect face) {
   }
 
 	logEye(leftEyeRegion, rightEyeRegion, leftPupil, rightPupil);
-
-  imshow(face_window_name, faceROI);
+    //얼굴보이는 작은화면 끄기
+  //imshow(face_window_name, faceROI);
+    void destroyAllWindows();
 //  cv::Rect roi( cv::Point( 0, 0 ), faceROI.size());
 //  cv::Mat destinationROI = debugImage( roi );
 //  faceROI.copyTo( destinationROI );

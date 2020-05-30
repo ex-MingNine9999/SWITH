@@ -1,12 +1,11 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/eyeLike.dir/main.cpp.o"
+  "../bin/eyeLike"
+  "../bin/eyeLike.pdb"
   "CMakeFiles/eyeLike.dir/findEyeCenter.cpp.o"
   "CMakeFiles/eyeLike.dir/findEyeCorner.cpp.o"
   "CMakeFiles/eyeLike.dir/helpers.cpp.o"
   "CMakeFiles/eyeLike.dir/logEyeTracking.cpp.o"
-  "CMakeFiles/eyeLike.dir/socket.cpp.o"
-  "../bin/eyeLike.pdb"
-  "../bin/eyeLike"
+  "CMakeFiles/eyeLike.dir/main.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.
