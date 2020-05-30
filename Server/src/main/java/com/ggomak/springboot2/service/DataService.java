@@ -40,10 +40,10 @@ public class DataService {
                 dataRepository.save(Data.builder()
                         .user(user.get())
                         .content(content)
-                        .concentrateData(concendata)
+                        .concentrateData(concendata+":")
                         .build());
             } else {
-                data.setData(data.getConcentrateData().concat(concendata));
+                data.setData(data.getConcentrateData().concat(concendata+":"));
                 dataRepository.save(data);
             }
         }
