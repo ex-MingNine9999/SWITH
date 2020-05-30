@@ -22,7 +22,7 @@ CURLcode curlSend(int concentration)
 	CURLcode res = CURLE_FAILED_INIT;
 
 	if (curl) {
-		curl_easy_setopt(curl, CURLOPT_POSTFIEDS, std::to_string(concentration).c_str());
+		curl_easy_setopt(curl, CURLOPT_POSTFIELDS, std::to_string(concentration).c_str());
 
 		res = curl_easy_perform(curl);
 	}
@@ -49,7 +49,7 @@ CURLcode curlCheckBoundary(void)
 		curl_slist *list = curl_slist_append(list, TO_JSON);
 		curl_easy_setopt(curl, CURLOPT_URL, CHECK_URL);
 		curl_easy_setopt(curl, CURLOPT_HTTPHEADER, list);
-		curl_easy_setopt(curl, CURLPOSTFIELDS, CHECK_MSG);
+		curl_easy_setopt(curl, CURLOPT_POSTFIELDS, CHECK_MSG);
 
 		res = curl_easy_perform(c);
 	}

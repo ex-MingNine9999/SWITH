@@ -4,11 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src/findEyeCenter.cpp" "/Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src/CMakeFiles/eyeLike.dir/findEyeCenter.cpp.o"
-  "/Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src/findEyeCorner.cpp" "/Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src/CMakeFiles/eyeLike.dir/findEyeCorner.cpp.o"
-  "/Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src/helpers.cpp" "/Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src/CMakeFiles/eyeLike.dir/helpers.cpp.o"
-  "/Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src/logEyeTracking.cpp" "/Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src/CMakeFiles/eyeLike.dir/logEyeTracking.cpp.o"
-  "/Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src/main.cpp" "/Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src/CMakeFiles/eyeLike.dir/main.cpp.o"
+  "/Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src/eyeLike.cpp" "/Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src/CMakeFiles/swith_client.dir/eyeLike.cpp.o"
+  "/Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src/findEyeCenter.cpp" "/Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src/CMakeFiles/swith_client.dir/findEyeCenter.cpp.o"
+  "/Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src/findEyeCorner.cpp" "/Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src/CMakeFiles/swith_client.dir/findEyeCorner.cpp.o"
+  "/Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src/helpers.cpp" "/Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src/CMakeFiles/swith_client.dir/helpers.cpp.o"
+  "/Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src/logEyeTracking.cpp" "/Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src/CMakeFiles/swith_client.dir/logEyeTracking.cpp.o"
+  "/Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src/main.cpp" "/Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src/CMakeFiles/swith_client.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 
