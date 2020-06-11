@@ -1,3 +1,0 @@
-/Users/ming._.nine9/Programming/SWITH/eyeLike/src/CMakeFiles/rebuild_cache.dir
-/Users/ming._.nine9/Programming/SWITH/eyeLike/src/CMakeFiles/edit_cache.dir
-/Users/ming._.nine9/Programming/SWITH/eyeLike/src/CMakeFiles/eyeLike.dir

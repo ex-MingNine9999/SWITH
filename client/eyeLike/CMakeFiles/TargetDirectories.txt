@@ -1,5 +1,0 @@
-/Users/kimminjeong/SWITH/client/eyeLike/CMakeFiles/rebuild_cache.dir
-/Users/kimminjeong/SWITH/client/eyeLike/CMakeFiles/edit_cache.dir
-/Users/kimminjeong/SWITH/client/eyeLike/src/CMakeFiles/rebuild_cache.dir
-/Users/kimminjeong/SWITH/client/eyeLike/src/CMakeFiles/edit_cache.dir
-/Users/kimminjeong/SWITH/client/eyeLike/src/CMakeFiles/eyeLike.dir
