@@ -14,6 +14,8 @@ int main(void)
 
 	list = curl_slist_append(list, "Content-Type: application/json");
 	if(curl) {
+
+		printf("\n%x\n", curl);
 		curl_easy_setopt(curl, CURLOPT_URL, "ec2-15-164-111-138.ap-northeast-2.compute.amazonaws.com:8080/api/v3/datasave");
 		curl_easy_setopt(curl, CURLOPT_HTTPHEADER, list);
 		curl_easy_setopt(curl, CURLOPT_POSTFIELDSIZE, 3L);
@@ -23,8 +25,8 @@ int main(void)
 		curl_easy_cleanup(curl); 
 	}
 
-	printf("\n%s\n", std::to_string(a).c_str());
-	
+	printf("\n%x\n", curl);
+
 	return 0;
 
 }

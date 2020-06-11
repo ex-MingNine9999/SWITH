@@ -1,0 +1,12 @@
+PROJECT( eyelike_project )
+FIND_PACKAGE( OpenCV REQUIRED )
+FIND_PACKAGE( curl REQUIRED )
+cmake_minimum_required(VERSION 2.8)
+
+SET(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_BINARY_DIR}/bin)
+set(CMAKE_BINARY_DIR ${PROJECT_BINARY_DIR}/bin)
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_FLAGS "-lcurl" )
+
+add_subdirectory(src)
+ADD_COMPILE_OPTIONS( -lcurl )

@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/ming._.nine9/Programming/SWITH/eyeLike/src/socket.c
+socket.h
+/Users/ming._.nine9/Programming/SWITH/eyeLike/src/socket.h
+
+/Users/ming._.nine9/Programming/SWITH/eyeLike/src/socket.h
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+string.h
+-
+sys/types.h
+-
+sys/socket.h
+-
+arpa/inet.h
+-
+netinet/in.h
+-
+
