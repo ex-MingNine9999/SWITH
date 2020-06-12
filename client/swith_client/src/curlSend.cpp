@@ -8,7 +8,8 @@ int curlInit(void)
 	curl = curl_easy_init();
 
 	if (curl) {
-		curl_slist *list = curl_slist_append(list, TO_JSON);
+		curl_slist *list = NULL;
+		list = curl_slist_append(list, TO_JSON);
 		curl_easy_setopt(curl, CURLOPT_URL, DB_URL);
 		curl_easy_setopt(curl, CURLOPT_HTTPHEADER, list);
 		return 1;

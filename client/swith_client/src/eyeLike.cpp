@@ -196,7 +196,7 @@ eyeLocation findEyes(cv::Mat frame_gray, cv::Rect face) {
     circle(faceROI, rightRightCorner, 3, 200);
   }
 
-	logEye(leftEyeRegion, rightEyeRegion, leftPupil, rightPupil);
+//	logEye(leftEyeRegion, rightEyeRegion, leftPupil, rightPupil);
 	ret.leftEye = leftEyeRegion;
 	ret.leftCenter = leftPupil;
 	ret.rightEye = rightEyeRegion;

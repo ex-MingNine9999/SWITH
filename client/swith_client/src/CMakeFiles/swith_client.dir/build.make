@@ -43,10 +43,10 @@ RM = /Users/ming._.nine9/.pyenv/versions/anaconda3-5.3.1/lib/python3.7/site-pack
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike
+CMAKE_SOURCE_DIR = /Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike
+CMAKE_BINARY_DIR = /Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/swith_client.dir/depend.make
@@ -59,94 +59,94 @@ include src/CMakeFiles/swith_client.dir/flags.make
 
 src/CMakeFiles/swith_client.dir/main.cpp.o: src/CMakeFiles/swith_client.dir/flags.make
 src/CMakeFiles/swith_client.dir/main.cpp.o: src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/swith_client.dir/main.cpp.o"
-	cd /Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/swith_client.dir/main.cpp.o -c /Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/swith_client.dir/main.cpp.o"
+	cd /Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/swith_client.dir/main.cpp.o -c /Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/src/main.cpp
 
 src/CMakeFiles/swith_client.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/swith_client.dir/main.cpp.i"
-	cd /Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src/main.cpp > CMakeFiles/swith_client.dir/main.cpp.i
+	cd /Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/src/main.cpp > CMakeFiles/swith_client.dir/main.cpp.i
 
 src/CMakeFiles/swith_client.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/swith_client.dir/main.cpp.s"
-	cd /Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src/main.cpp -o CMakeFiles/swith_client.dir/main.cpp.s
+	cd /Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/src/main.cpp -o CMakeFiles/swith_client.dir/main.cpp.s
 
 src/CMakeFiles/swith_client.dir/findEyeCenter.cpp.o: src/CMakeFiles/swith_client.dir/flags.make
 src/CMakeFiles/swith_client.dir/findEyeCenter.cpp.o: src/findEyeCenter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/swith_client.dir/findEyeCenter.cpp.o"
-	cd /Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/swith_client.dir/findEyeCenter.cpp.o -c /Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src/findEyeCenter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/swith_client.dir/findEyeCenter.cpp.o"
+	cd /Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/swith_client.dir/findEyeCenter.cpp.o -c /Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/src/findEyeCenter.cpp
 
 src/CMakeFiles/swith_client.dir/findEyeCenter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/swith_client.dir/findEyeCenter.cpp.i"
-	cd /Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src/findEyeCenter.cpp > CMakeFiles/swith_client.dir/findEyeCenter.cpp.i
+	cd /Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/src/findEyeCenter.cpp > CMakeFiles/swith_client.dir/findEyeCenter.cpp.i
 
 src/CMakeFiles/swith_client.dir/findEyeCenter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/swith_client.dir/findEyeCenter.cpp.s"
-	cd /Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src/findEyeCenter.cpp -o CMakeFiles/swith_client.dir/findEyeCenter.cpp.s
+	cd /Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/src/findEyeCenter.cpp -o CMakeFiles/swith_client.dir/findEyeCenter.cpp.s
 
 src/CMakeFiles/swith_client.dir/findEyeCorner.cpp.o: src/CMakeFiles/swith_client.dir/flags.make
 src/CMakeFiles/swith_client.dir/findEyeCorner.cpp.o: src/findEyeCorner.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/swith_client.dir/findEyeCorner.cpp.o"
-	cd /Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/swith_client.dir/findEyeCorner.cpp.o -c /Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src/findEyeCorner.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/swith_client.dir/findEyeCorner.cpp.o"
+	cd /Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/swith_client.dir/findEyeCorner.cpp.o -c /Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/src/findEyeCorner.cpp
 
 src/CMakeFiles/swith_client.dir/findEyeCorner.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/swith_client.dir/findEyeCorner.cpp.i"
-	cd /Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src/findEyeCorner.cpp > CMakeFiles/swith_client.dir/findEyeCorner.cpp.i
+	cd /Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/src/findEyeCorner.cpp > CMakeFiles/swith_client.dir/findEyeCorner.cpp.i
 
 src/CMakeFiles/swith_client.dir/findEyeCorner.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/swith_client.dir/findEyeCorner.cpp.s"
-	cd /Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src/findEyeCorner.cpp -o CMakeFiles/swith_client.dir/findEyeCorner.cpp.s
+	cd /Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/src/findEyeCorner.cpp -o CMakeFiles/swith_client.dir/findEyeCorner.cpp.s
 
 src/CMakeFiles/swith_client.dir/helpers.cpp.o: src/CMakeFiles/swith_client.dir/flags.make
 src/CMakeFiles/swith_client.dir/helpers.cpp.o: src/helpers.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/swith_client.dir/helpers.cpp.o"
-	cd /Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/swith_client.dir/helpers.cpp.o -c /Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src/helpers.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/swith_client.dir/helpers.cpp.o"
+	cd /Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/swith_client.dir/helpers.cpp.o -c /Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/src/helpers.cpp
 
 src/CMakeFiles/swith_client.dir/helpers.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/swith_client.dir/helpers.cpp.i"
-	cd /Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src/helpers.cpp > CMakeFiles/swith_client.dir/helpers.cpp.i
+	cd /Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/src/helpers.cpp > CMakeFiles/swith_client.dir/helpers.cpp.i
 
 src/CMakeFiles/swith_client.dir/helpers.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/swith_client.dir/helpers.cpp.s"
-	cd /Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src/helpers.cpp -o CMakeFiles/swith_client.dir/helpers.cpp.s
+	cd /Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/src/helpers.cpp -o CMakeFiles/swith_client.dir/helpers.cpp.s
 
 src/CMakeFiles/swith_client.dir/logEyeTracking.cpp.o: src/CMakeFiles/swith_client.dir/flags.make
 src/CMakeFiles/swith_client.dir/logEyeTracking.cpp.o: src/logEyeTracking.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/swith_client.dir/logEyeTracking.cpp.o"
-	cd /Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/swith_client.dir/logEyeTracking.cpp.o -c /Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src/logEyeTracking.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/swith_client.dir/logEyeTracking.cpp.o"
+	cd /Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/swith_client.dir/logEyeTracking.cpp.o -c /Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/src/logEyeTracking.cpp
 
 src/CMakeFiles/swith_client.dir/logEyeTracking.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/swith_client.dir/logEyeTracking.cpp.i"
-	cd /Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src/logEyeTracking.cpp > CMakeFiles/swith_client.dir/logEyeTracking.cpp.i
+	cd /Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/src/logEyeTracking.cpp > CMakeFiles/swith_client.dir/logEyeTracking.cpp.i
 
 src/CMakeFiles/swith_client.dir/logEyeTracking.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/swith_client.dir/logEyeTracking.cpp.s"
-	cd /Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src/logEyeTracking.cpp -o CMakeFiles/swith_client.dir/logEyeTracking.cpp.s
+	cd /Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/src/logEyeTracking.cpp -o CMakeFiles/swith_client.dir/logEyeTracking.cpp.s
 
 src/CMakeFiles/swith_client.dir/eyeLike.cpp.o: src/CMakeFiles/swith_client.dir/flags.make
 src/CMakeFiles/swith_client.dir/eyeLike.cpp.o: src/eyeLike.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/swith_client.dir/eyeLike.cpp.o"
-	cd /Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/swith_client.dir/eyeLike.cpp.o -c /Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src/eyeLike.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/swith_client.dir/eyeLike.cpp.o"
+	cd /Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/swith_client.dir/eyeLike.cpp.o -c /Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/src/eyeLike.cpp
 
 src/CMakeFiles/swith_client.dir/eyeLike.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/swith_client.dir/eyeLike.cpp.i"
-	cd /Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src/eyeLike.cpp > CMakeFiles/swith_client.dir/eyeLike.cpp.i
+	cd /Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/src/eyeLike.cpp > CMakeFiles/swith_client.dir/eyeLike.cpp.i
 
 src/CMakeFiles/swith_client.dir/eyeLike.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/swith_client.dir/eyeLike.cpp.s"
-	cd /Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src/eyeLike.cpp -o CMakeFiles/swith_client.dir/eyeLike.cpp.s
+	cd /Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/src/eyeLike.cpp -o CMakeFiles/swith_client.dir/eyeLike.cpp.s
 
 src/CMakeFiles/swith_client.dir/curlSend.cpp.o: src/CMakeFiles/swith_client.dir/flags.make
 src/CMakeFiles/swith_client.dir/curlSend.cpp.o: src/curlSend.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/swith_client.dir/curlSend.cpp.o"
-	cd /Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/swith_client.dir/curlSend.cpp.o -c /Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src/curlSend.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/swith_client.dir/curlSend.cpp.o"
+	cd /Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/swith_client.dir/curlSend.cpp.o -c /Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/src/curlSend.cpp
 
 src/CMakeFiles/swith_client.dir/curlSend.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/swith_client.dir/curlSend.cpp.i"
-	cd /Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src/curlSend.cpp > CMakeFiles/swith_client.dir/curlSend.cpp.i
+	cd /Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/src/curlSend.cpp > CMakeFiles/swith_client.dir/curlSend.cpp.i
 
 src/CMakeFiles/swith_client.dir/curlSend.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/swith_client.dir/curlSend.cpp.s"
-	cd /Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src/curlSend.cpp -o CMakeFiles/swith_client.dir/curlSend.cpp.s
+	cd /Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/src/curlSend.cpp -o CMakeFiles/swith_client.dir/curlSend.cpp.s
 
 # Object files for target swith_client
 swith_client_OBJECTS = \
@@ -209,8 +209,8 @@ bin/swith_client: /Users/ming._.nine9/opencv/build/3rdparty/lib/liblibjasper.a
 bin/swith_client: /Users/ming._.nine9/opencv/build/3rdparty/lib/libIlmImf.a
 bin/swith_client: /Users/ming._.nine9/opencv/build/3rdparty/lib/libzlib.a
 bin/swith_client: src/CMakeFiles/swith_client.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable ../bin/swith_client"
-	cd /Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/swith_client.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable ../bin/swith_client"
+	cd /Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/swith_client.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/swith_client.dir/build: bin/swith_client
@@ -218,10 +218,10 @@ src/CMakeFiles/swith_client.dir/build: bin/swith_client
 .PHONY : src/CMakeFiles/swith_client.dir/build
 
 src/CMakeFiles/swith_client.dir/clean:
-	cd /Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src && $(CMAKE_COMMAND) -P CMakeFiles/swith_client.dir/cmake_clean.cmake
+	cd /Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/src && $(CMAKE_COMMAND) -P CMakeFiles/swith_client.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/swith_client.dir/clean
 
 src/CMakeFiles/swith_client.dir/depend:
-	cd /Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike /Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src /Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike /Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src /Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src/CMakeFiles/swith_client.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client /Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/src /Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client /Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/src /Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/src/CMakeFiles/swith_client.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/swith_client.dir/depend
 

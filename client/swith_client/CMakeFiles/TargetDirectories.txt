@@ -1,5 +1,5 @@
-/Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/CMakeFiles/rebuild_cache.dir
-/Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/CMakeFiles/edit_cache.dir
-/Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src/CMakeFiles/rebuild_cache.dir
-/Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src/CMakeFiles/edit_cache.dir
-/Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src/CMakeFiles/swith_client.dir
+/Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/CMakeFiles/rebuild_cache.dir
+/Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/CMakeFiles/edit_cache.dir
+/Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/src/CMakeFiles/rebuild_cache.dir
+/Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/src/CMakeFiles/edit_cache.dir
+/Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/src/CMakeFiles/swith_client.dir

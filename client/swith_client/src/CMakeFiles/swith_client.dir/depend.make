@@ -88,6 +88,7 @@ src/CMakeFiles/swith_client.dir/main.cpp.o: src/findEyeCorner.h
 src/CMakeFiles/swith_client.dir/main.cpp.o: src/helpers.h
 src/CMakeFiles/swith_client.dir/main.cpp.o: src/logEyeTracking.h
 src/CMakeFiles/swith_client.dir/main.cpp.o: src/main.cpp
+src/CMakeFiles/swith_client.dir/main.cpp.o: src/swith.h
 src/CMakeFiles/swith_client.dir/main.cpp.o: /Users/ming._.nine9/opencv/modules/core/include/opencv2/core/core.hpp
 src/CMakeFiles/swith_client.dir/main.cpp.o: /Users/ming._.nine9/opencv/modules/core/include/opencv2/core/core_c.h
 src/CMakeFiles/swith_client.dir/main.cpp.o: /Users/ming._.nine9/opencv/modules/core/include/opencv2/core/mat.hpp

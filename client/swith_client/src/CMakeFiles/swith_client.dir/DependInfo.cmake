@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src/curlSend.cpp" "/Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src/CMakeFiles/swith_client.dir/curlSend.cpp.o"
-  "/Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src/eyeLike.cpp" "/Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src/CMakeFiles/swith_client.dir/eyeLike.cpp.o"
-  "/Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src/findEyeCenter.cpp" "/Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src/CMakeFiles/swith_client.dir/findEyeCenter.cpp.o"
-  "/Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src/findEyeCorner.cpp" "/Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src/CMakeFiles/swith_client.dir/findEyeCorner.cpp.o"
-  "/Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src/helpers.cpp" "/Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src/CMakeFiles/swith_client.dir/helpers.cpp.o"
-  "/Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src/logEyeTracking.cpp" "/Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src/CMakeFiles/swith_client.dir/logEyeTracking.cpp.o"
-  "/Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src/main.cpp" "/Users/ming._.nine9/Programming/SWITH/SWITH/client/eyeLike/src/CMakeFiles/swith_client.dir/main.cpp.o"
+  "/Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/src/curlSend.cpp" "/Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/src/CMakeFiles/swith_client.dir/curlSend.cpp.o"
+  "/Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/src/eyeLike.cpp" "/Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/src/CMakeFiles/swith_client.dir/eyeLike.cpp.o"
+  "/Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/src/findEyeCenter.cpp" "/Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/src/CMakeFiles/swith_client.dir/findEyeCenter.cpp.o"
+  "/Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/src/findEyeCorner.cpp" "/Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/src/CMakeFiles/swith_client.dir/findEyeCorner.cpp.o"
+  "/Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/src/helpers.cpp" "/Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/src/CMakeFiles/swith_client.dir/helpers.cpp.o"
+  "/Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/src/logEyeTracking.cpp" "/Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/src/CMakeFiles/swith_client.dir/logEyeTracking.cpp.o"
+  "/Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/src/main.cpp" "/Users/ming._.nine9/Programming/SWITH/SWITH/client/swith_client/src/CMakeFiles/swith_client.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 
