@@ -116,6 +116,8 @@ eyeBoundary setBoundary(CvCapture *capture)
 
 	close(fd);
 
+	printf("sight check is finished\n");
+
 	return bound;
 }
 
