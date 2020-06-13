@@ -53,6 +53,7 @@ int main(void)
 	}
     
     eyeLikeEnd();
+	curlEnd();
 
     return 0;
 }
