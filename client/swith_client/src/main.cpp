@@ -38,7 +38,7 @@ int main(void)
 	const eyeBoundary bound = setBoundary(capture);
 	
 	while (1) {
-		alarm(3);
+		alarm(ALARM_TIMER);
 		con.flag = 0;
 		con.total = con.ok = 0;
 
@@ -121,7 +121,6 @@ eyeBoundary setBoundary(CvCapture *capture)
 
 int eyeChecking(eyeBoundary bound, eyeLocation eyes)
 {
-	//printf("%d %d %d %d\n", eyes.leftEye.x, eyes.leftEye.y, eyes.rightEye.x, eyes.rightEye.x);
 	if (eyes.leftEye.x >= bound.left_minX && eyes.leftEye.x <= bound.left_maxX &&
 		eyes.leftEye.y >= bound.left_minY && eyes.leftEye.y <= bound.left_maxY &&
 		eyes.rightEye.x >= bound.right_minX && eyes.rightEye.x <= bound.right_maxX && 

@@ -2,6 +2,7 @@
 #define SWITH_H
 
 #define ALARM_SEND sending
+#define ALARM_TIMER 3
 
 struct eyeBoundary{
     int left_minX;

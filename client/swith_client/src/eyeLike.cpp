@@ -53,19 +53,19 @@ CvCapture* eyeLikeInit(void)
  /*화면 없애기
   cv::namedWindow(main_window_name,CV_WINDOW_NORMAL);
   cv::moveWindow(main_window_name, 400, 100);
-  cv::namedWindow(face_window_name,CV_WINDOW_NORMAL);
-  cv::moveWindow(face_window_name, 10, 100);
   cv::namedWindow("Right Eye",CV_WINDOW_NORMAL);
   cv::moveWindow("Right Eye", 10, 600);
   cv::namedWindow("Left Eye",CV_WINDOW_NORMAL);
   cv::moveWindow("Left Eye", 10, 800);
   */
-
+  cv::namedWindow(face_window_name,CV_WINDOW_NORMAL);
+  cv::moveWindow(face_window_name, 10, 100);
   /* As the matrix dichotomy will not be applied, these windows are useless.
   cv::namedWindow("aa",CV_WINDOW_NORMAL);
   cv::moveWindow("aa", 10, 800);
   cv::namedWindow("aaa",CV_WINDOW_NORMAL);
-  cv::moveWindow("aaa", 10, 800);*/
+  cv::moveWindow("aaa", 10, 800);
+  */
 
   createCornerKernels();
   ellipse(skinCrCbHist, cv::Point(113, 155), cv::Size(23, 15),
@@ -203,11 +203,13 @@ eyeLocation findEyes(cv::Mat frame_gray, cv::Rect face) {
 	ret.rightCenter = rightPupil;
 
     //얼굴보이는 작은화면 끄기
-  //imshow(face_window_name, faceROI);
-	//void destroyAllWindows();
-//  cv::Rect roi( cv::Point( 0, 0 ), faceROI.size());
-//  cv::Mat destinationROI = debugImage( roi );
-//  faceROI.copyTo( destinationROI );
+  imshow(face_window_name, faceROI);
+  /*
+	void destroyAllWindows();
+  cv::Rect roi( cv::Point( 0, 0 ), faceROI.size());
+  cv::Mat destinationROI = debugImage( roi );
+  faceROI.copyTo( destinationROI );
+  */ 
 
 	return ret;
 }
